@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
+::-webkit-scrollbar {display:none}
 
 body {
   /* Makes kaleidoscope fullscreen */
@@ -11,10 +16,33 @@ body {
   opacity : 0.9;
   padding : 5px;
   position:absolute;
-  top: 5px; left: 0px;
+  top: 0px; left: 0px;
   z-index: 2;
   font-family: "Roboto Condensed";
   font-size: 1.5em;
   color: white;
   text-decoration: none;
+}
+
+.tekst
+{position: absolute;
+  text-shadow: 2px 2px 4px #000000;
+top: 50%;
+  left: 50%;
+   margin: -100px 0 0 -240px;
+overflow: scroll;
+font-family: 'Noticia Text', serif;
+border-style: none;
+color: white;
+letter-spacing: 1px;
+text-align:center;
+font-size: 12px;
+height: 160px;
+width: 490px;
+z-index:1;
+}
+
+a
+{text-decoration: none;
+color: #e077c3;
 }
